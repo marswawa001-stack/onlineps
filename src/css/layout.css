@@ -140,33 +140,6 @@ body .sp-preview{
 
 /* ========== header ======================================================== */
 
-.logo{
-	position: relative;
-	display: inline-block;
-	height: 30px;
-	width: 110px;
-	padding: 5px 5px 5px 36px;
-	margin: 5px;
-	font-size: 14px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #ffffff;
-	color: var(--text-color);
-}
-.logo:after{
-	position:absolute;
-	content:"";
-	left: 0;
-	top: 0;
-	width: 31px;
-	height: 30px;
-	background: url('images/logo.svg') no-repeat center center;
-	background-size: auto 28px;
-	filter: var(--mobile-menu-toggle-filter);
-}
-.logo:hover:after{
-	left: 2px;
-}
 .about-logo{
 	margin-left:22%;
 }
